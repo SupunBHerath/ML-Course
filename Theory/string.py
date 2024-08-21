@@ -16,3 +16,12 @@ print ('a' in name)
 print ('a' not in  name)
 print(name.find('A'))
 print(name.index)
+
+name = 'Supun Bandara'
+name2 ='Supun.Bandara.Herath'
+
+print(name.split())
+print(name2.split('.'))
+n=name2.split('.')
+newName = "".join(n)
+print(newName)
